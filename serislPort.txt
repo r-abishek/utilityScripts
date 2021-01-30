@@ -1,0 +1,13 @@
+To install screen:
+sudo apt-get install screen
+
+To run screen:
+screen /dev/ttyUSB0 115200
+
+To quit:
+Ctrl+A followed by \ followed by y
+
+To add correct permissions to /dev/ttyUSB0:
+sudo chmod a+rwx /dev/ttyUSB0
+
+
